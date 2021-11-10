@@ -55,6 +55,8 @@ class AbilityRunner : ActiveAbility<AbilityConceptSample>(), Listener {
         if (action != WandAction.LEFT_CLICK) return
 
         exhaust()
+        durationTime = concept.durationTime
+
         event.player.inventory.setItemInMainHand(ItemStack(Material.GLASS_BOTTLE))
 
         val player = event.player
