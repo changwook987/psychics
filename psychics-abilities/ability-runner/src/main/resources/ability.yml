@@ -1,0 +1,5 @@
+group: ${group}
+name: ${projectName}
+version: ${version}
+main: io.github.changwook987.psychics.ability.runner.AbilityRunner
+author: Gbunny
